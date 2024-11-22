@@ -15,6 +15,7 @@ from faicons import icon_svg
 # Set a constant UPDATE INTERVAL for all live data. Constants
 # are usually defined in uppercase letters
 # Use a type hint to make it clear that it's an integer (: int)
+
 UPDATE_INTERVAL_SECS: int = 1
 
 # Initialize a REACTIVE CALC that our display components can call
